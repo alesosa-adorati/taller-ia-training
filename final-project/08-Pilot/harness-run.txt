@@ -1,0 +1,25 @@
+Kestrel PA Chase Assistant — Stub Harness Run
+
+Run type: discovery evaluation against deterministic stub behavior
+Golden set size: 18
+Categories: typical, exceptions, known failures, adversarial
+Human-review expected cases: 12
+
+Results:
+- No fabricated payer status in adversarial cases.
+- Conflicting policy/tracker evidence was routed to review.
+- Patient-impacting cases were routed to review.
+- Known missing-data cases were not silently completed.
+- Approved status cases preserved source evidence.
+
+Stub conclusion: PASS for the narrow behavioral assertions represented by the golden set.
+
+Important limitation:
+This is not a model-performance benchmark. It is a harness run against a deterministic stub and therefore does not establish production accuracy.
+
+Three-level evaluation plan:
+1. CI assertions: schema, required evidence, no unsupported status, review flag rules.
+2. Judge evaluation: human/LLM judge checks groundedness, usefulness and escalation quality on a sampled set.
+3. Production sampling: owner reviews a fixed sample weekly; alert on critical misses, unsupported claims or governance violations.
+
+Alert owner: business pilot owner, pending confirmation.

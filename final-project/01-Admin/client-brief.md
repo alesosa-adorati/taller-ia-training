@@ -2,22 +2,15 @@
 
 ## 1. What Kestrel does and how it makes money
 
-Kestrel Health Group is a multi-specialty physician group operating outpatient medical services in North Carolina. Its clinical footprint includes primary care, orthopedics, cardiology, endocrinology, and imaging.
-
-The discovery is focused on four administrative departments:
-
-- Revenue Cycle
-- Practice Operations
-- People / Talent
-- Patient Growth
-
-**Measured — B1:** The in-scope population is 473 administrative employees across these four departments.
+Kestrel Health Group is a multi-specialty physician group operating outpatient medical services in North Carolina. Its clinical footprint includes primary care, orthopedics, cardiology, endocrinology and imaging.
 
 **Measured — B1:** Kestrel has 218 clinicians and 31 outpatient sites.
 
 **Reported — B1:** Net patient revenue is $412M, with revenue growing 7% and patient volume growing 5%.
 
-The business concern is not simply administrative workload. Leadership is focused on the cost of collecting revenue and on whether administrative work is growing faster than clinical capacity.
+The discovery is focused on Revenue Cycle, Practice Operations, People/Talent and Patient Growth.
+
+**Measured — B1:** The in-scope population is 473 administrative employees.
 
 **Measured — B1:** Cost to collect is 4.1%, compared with a reported peer median of approximately 3.2%.
 
@@ -27,179 +20,197 @@ The business concern is not simply administrative workload. Leadership is focuse
 
 **Reported — B1:** Kestrel added 63 administrative employees versus 11 clinicians over the previous two years.
 
-The COO, Marcus Bell, has explicitly asked the discovery team to understand what the approximately 470 administrative employees do and how much of that work should be performed by a person.
-
-His stated priority is cost to collect. He has also explicitly said that the conclusion could be that Kestrel should hire fewer people and buy no new technology.
+Marcus Bell, COO, has asked the discovery team to understand what the approximately 470 administrative employees do and how much of that work should be performed by a person. His stated priority is cost to collect. He has also said that the answer could be to hire fewer people and buy nothing.
 
 **Source:** B1 Company.
 
 ## 2. Kestrel's relationship with AI
 
-Kestrel has already experimented with AI, but adoption and governance are inconsistent.
+Kestrel has experimented with AI, but adoption and governance are inconsistent.
 
-**Reported — B1/B2:** In 2024, Kestrel ran an AI ambient-scribe pilot with 40 clinicians. Twelve clinicians still used it daily, while 28 stopped within six weeks. No baseline was measured for the pilot.
+**Reported — B1/B2:** A 2024 ambient-scribe pilot involved 40 clinicians. Twelve continued daily use while 28 stopped within six weeks. No baseline was measured for that pilot.
 
-**Measured — B2 survey:** 51% of survey respondents who answered the AI-use question reported using AI for work.
+**Measured — B2:** 51% of survey respondents who answered the AI-use question reported using AI for work.
 
-**Measured — B2 survey:** Among those AI users, 71% reported using a personal, non-Kestrel account.
+**Measured — B2:** 71% of those AI users reported using a personal, non-Kestrel account.
 
-**Measured — B2 survey:** Only 6% of respondents reported receiving AI training.
+**Measured — B2:** Only 6% reported receiving AI training.
 
-No AI tools are formally sanctioned for administrative staff according to the COO's current understanding, although the case also identifies four Copilot licenses in the Patient Growth team.
+**Reported — B2:** The Patient Growth team has four Copilot licenses.
 
-**Reported — B2:** Among employees who use AI for work, 9% reported daily use, 19% weekly use, and 72% occasional or rare use.
+**Measured — B2:** Among AI users, 9% reported daily use, 19% weekly use and 72% occasional or rare use.
 
-The most common reported uses are:
+Common reported uses were writing/editing, summarization, information lookup and spreadsheet formulas.
 
-- Writing/editing
-- Summarization
-- Information lookup
-- Spreadsheet formulas
+**Measured — B2:** 38% identified uncertainty about whether AI use is allowed as a concern; 27% identified privacy and 18% accuracy.
 
-The survey also shows that employees are already experimenting with AI despite the absence of a clear administrative AI policy.
+**Reported — B3:** One employee reported that AI hallucinated a nonexistent policy when used for an appeal.
 
-**Measured — B2 survey:** 38% of respondents identified uncertainty about whether AI use is allowed as a concern.
+**Reported — B6:** Kestrel has no BAA with a general-purpose AI vendor. Any AI tool handling PHI requires a BAA and risk assessment, with an estimated minimum review period of 6–8 weeks.
 
-**Measured — B2 survey:** 27% identified privacy as a concern and 18% identified accuracy as a concern.
+The evidence therefore supports the conclusion that employee experimentation exists while controlled organizational adoption remains immature.
 
-One employee reported that AI hallucinated a nonexistent policy when used for an appeal.
-
-The 2024 clinical scribe pilot had a BAA, but Kestrel currently has no BAA with a general-purpose AI vendor.
-
-**Reported — B6:** Any AI tool handling PHI requires a signed BAA and risk assessment. Sandra estimates a minimum of 6–8 weeks for this process, potentially longer for an inexperienced healthcare vendor.
-
-This means AI capability exists at the employee level, but controlled organizational adoption is immature.
-
-**Sources:** B1, B2, B6, B8.
+**Sources:** B1, B2, B3, B6.
 
 ## 3. Working vocabulary
-
-The discovery will use healthcare, revenue-cycle, and operational terminology that may not be familiar to a general technology audience.
 
 | Term | Plain-language meaning | Why it matters |
 |---|---|---|
 | Net patient revenue | Revenue generated from patient care after applicable adjustments | Core business outcome |
 | Cost to collect | Administrative cost associated with collecting patient and payer revenue | Primary COO priority |
-| Days in A/R | Average number of days revenue remains in accounts receivable | Indicates collection-cycle performance |
-| First-pass claim acceptance | Percentage of claims accepted without being rejected on the first submission | Indicates upstream claim quality |
-| Prior authorization (PA) | Approval required from a payer before certain services are provided | Major Practice Operations workload |
-| Payer | Insurance organization responsible for paying eligible claims | Determines authorization, billing, and enrollment rules |
-| Clearinghouse | Service that exchanges and processes claims between providers and payers | ClearBridge is Kestrel's claims clearinghouse |
-| Denial | A claim or payment request rejected by a payer | Creates downstream revenue-cycle work |
-| Appeal | Formal request asking a payer to reconsider a denial | Requires documentation, policy research, and submission |
-| PHI | Protected Health Information | Determines data-handling and AI requirements |
-| BAA | Business Associate Agreement governing certain PHI handling relationships | Required for applicable vendors handling PHI |
-| Credentialing | Process of establishing a provider's qualifications with payers and other organizations | Required before providers can bill certain payers |
-| Payer enrollment | Registering a provider with an individual payer | Delays can prevent billable care |
-| CPT | Standardized procedure coding used for medical services | Appears in prior-authorization and billing workflows |
-| A/R | Accounts receivable; money owed to the organization | Key revenue-cycle metric |
+| Days in A/R | Average number of days revenue remains in accounts receivable | Collection-cycle performance |
+| First-pass claim acceptance | Percentage of claims accepted without first-submission rejection | Upstream claim quality |
+| Prior authorization | Payer approval required before certain services | Major Practice Operations workload |
+| Payer | Insurance organization responsible for eligible payment | Determines rules and status |
+| Clearinghouse | Service exchanging claims between providers and payers | ClearBridge performs this role |
+| Denial | Claim or payment request rejected by a payer | Creates downstream work |
+| Appeal | Request for a payer to reconsider a denial | Requires evidence and submission |
+| PHI | Protected Health Information | Determines data-handling requirements |
+| BAA | Business Associate Agreement | Required for applicable PHI vendors |
+| Credentialing | Establishing provider qualifications with payers/organizations | Enables billable care |
+| Payer enrollment | Registering a provider with an individual payer | Delays can prevent billing |
+| A/R | Accounts receivable | Key revenue-cycle metric |
 
 **Sources:** B1, B3, B6, B9.
 
 ## 4. Key people and roles
 
-### Marcus Bell — COO
+- Marcus Bell — COO and executive sponsor.
+- Sandra Whitlock — compliance/governance stakeholder.
+- Tanya Brooks — VP Revenue Cycle.
+- Hector Salinas — Director Practice Operations.
+- Ken — IT/systems stakeholder.
+- Dorothy Kimball — prior authorization coordinator and frontline SME.
+- Nia Croft — billing/denials and appeals SME.
+- Aaron Petit — referral intake SME.
+- Marisol Vega — credentialing lead.
+- Wendy Ofori — People Operations.
+- Ellis Chang — Patient Growth/marketing.
+- Ray Odom — patient balance team.
 
-Executive sponsor for the discovery.
+**Sources:** B1, B3, B6.
 
-His stated priority is reducing cost to collect and understanding what administrative employees do. He has explicitly asked the team not to assume that the answer requires new technology.
+## 5. Relevant documentation and systems
 
-**Reported quote — B1:** “Finding the money is not my problem. Finding the person who will own this on my side is my problem.”
+Systems include Caregate, ClearBridge, seven payer portals, RightFax/eFax, Sage Intacct, Paylink, HubSpot, SharePoint/OneDrive, Microsoft 365/Excel, Genesys and Access databases.
 
-This creates an important discovery constraint: recommendations must identify an operational owner, not only a technical solution.
+Available documents include a 2021 Revenue Cycle manual, 2023 front-desk onboarding, organizational charts and a systems inventory.
 
-### Sandra Whitlock — CCO
+**Reported — B1:** Prior-authorization and referral documentation is incomplete, and Kestrel has no administrative AI policy.
 
-Key governance and compliance stakeholder.
+**Source:** B1, B6, B7.
 
-She is responsible for understanding data handling, PHI requirements, BAAs, risk assessments, auditability, minimum-necessary data, and human review requirements.
+## 6. Initial discovery hypotheses
 
-### Ken — IT
+The strongest initial hypotheses are:
 
-Provides system and integration information.
+1. Repetitive administrative chasing is a significant source of avoidable effort.
+2. Information is fragmented across spreadsheets, fax, portals and systems.
+3. Some work is suitable for augmentation while judgment should remain human.
+4. Governance and ownership may constrain AI deployment more than model capability.
+5. The best pilot will need a measurable workflow baseline and a named business owner.
+6. Some improvements may require no AI at all.
 
-Important findings include a documented Caregate read API, a restricted Caregate write capability, a ClearBridge API, RightFax API access, and uncertainty around some Access databases.
+These are hypotheses, not final recommendations.
 
-### Tanya Brooks — VP Revenue Cycle
+## 7. Open questions, contradictions, and resolution plan
 
-Owns the Revenue Cycle organization and is measured on cost to collect and A/R.
+### 1. How often does an existing prior authorization fail to reach the claim?
 
-**Reported quote — B3:** “I don't need a tool. I need the same work to take less time.”
+**Evidence — Reported — B3/B6:** Nia reported missing prior authorization as a common denial category, while Ken stated that Kestrel does not have a number showing how often an authorization exists but is not attached to a claim.
 
-### Hector Salinas — Director, Practice Operations
+**Status:** Unknown.
 
-Owns referral intake, prior authorization, scheduling, and records.
+**Resolution plan:** Sample claims with missing or invalid authorization and determine whether an authorization existed but was not attached.
 
-He identified prior authorization as a persistent operational concern and explicitly identified dependency on Dorothy.
+### 2. Is the prior-authorization “never received” rate measurable?
 
-### Dorothy Kimball — Prior Authorization Coordinator
+**Evidence — Reported — B3:** Dorothy described requests being reported as never received.
 
-Experienced operational subject-matter expert with 19 years at Kestrel.
+**Evidence — Measured — B4:** One observed request required re-faxing after a payer reported that it had never been received.
 
-She maintains a long-lived prior-authorization tracker and is the primary source of practical knowledge about payer-specific workarounds.
+**Status:** The observed event is measured; the broader rate is unknown.
 
-She distinguishes between administrative chasing work and clinical judgment, indicating a potentially important boundary for any future AI-assisted workflow.
+**Resolution plan:** Sample recent chases and classify the reason for each chase.
 
-### Nia Croft — Billing Specialist
+### 3. How accurate is referral data entry?
 
-Works denials and appeals.
+**Evidence — Reported — B3:** Aaron stated that referral keying error rate is unknown.
 
-She identified recurring upstream problems involving prior authorization, eligibility, coding specificity, and medical necessity.
+**Status:** Unknown.
 
-### Aaron Petit — Referral Intake
+**Resolution plan:** Audit entered referrals against source documents and separate transcription errors from source ambiguity.
 
-Works inbound referrals.
+### 4. Why do recurring denials persist?
 
-He identified fax processing and manual data entry as significant workload components.
+**Evidence — Reported — B3/B7:** Nia identified recurring denial categories and the monthly ClearBridge report exists, but the case states that nobody has linked denial data upstream.
 
-### Marisol Vega — Credentialing Lead
+**Status:** Root-cause linkage is incomplete.
 
-Leads credentialing work and maintains the operational knowledge around payer-specific enrollment requirements.
+**Resolution plan:** Trace recurring denial categories backward to their originating workflows.
 
-### Wendy Ofori — People Operations
+### 5. How much prior-authorization work is chasing versus judgment?
 
-Raises important questions around handling sensitive credentialing information, including regulated identifiers and professional history.
+**Evidence — Reported — B3:** Dorothy would hand chasing to an assistant but retain judgment.
 
-### Ellis Chang — Marketing
+**Evidence — Measured — B4:** Shadowing showed payer chasing and clinic-information exceptions.
 
-Uses Copilot for recurring practice-growth reporting and provides evidence that controlled AI usage already exists in at least one administrative team.
+**Status:** Directionally clear, quantitatively unresolved.
 
-**Sources:** B1, B3, B6, B8.
+**Resolution plan:** Sample work and classify time by activity and judgment requirement.
 
-## 5. Available documentation and evidence
+### 6. Does the prior-authorization tracker contain unique institutional knowledge?
 
-Kestrel has several existing sources of operational information:
+**Evidence — Measured — B7:** The tracker contained 431 rows.
 
-- **Measured/system artifact — B7:** Prior-authorization tracker containing 431 rows at observation and 14 columns.
-- **Measured/system artifact — B7:** Referral fax lookup spreadsheet containing approximately 900 rows.
-- **Measured/system artifact — B7:** Appeal folder containing approximately 1,400 documents.
-- **Measured/system artifact — B7:** Credentialing tracker shared by four specialists.
-- **Measured/system artifact — B7:** ClearBridge denial-reason report available monthly.
-- **Reported — B1:** An 84-page Revenue Cycle manual from 2021.
-- **Reported — B1:** Front-desk onboarding material from 2023.
-- **Reported — B1:** Organization charts and systems inventory.
+**Evidence — Reported — B7:** Free-text notes represent approximately 12 years of rules and workarounds.
 
-Important documentation gaps exist.
+**Status:** Concentration is evident; portability is untested.
 
-Kestrel does not have identified prior-authorization or referral procedures covering the relevant work in sufficient detail, and there is no administrative AI policy.
+**Resolution plan:** Sample notes and compare them with current payer documentation.
 
-The operational spreadsheets contain knowledge that is not fully represented in core systems. The prior-authorization tracker includes free-text notes representing approximately 12 years of rules and workarounds.
+### 7. How much referral workload is caused by fax versus referral complexity?
 
-**Sources:** B1, B6, B7.
+**Evidence — Measured — B9:** 62% of referrals arrive by fax.
 
-## 6. Initial discovery posture
+**Evidence — Measured — B4:** Observed processing times varied between clean and problematic documents.
 
-The discovery should not begin with a predetermined AI solution.
+**Status:** Causal contribution is unknown.
 
-The available evidence suggests several potentially important themes:
+**Resolution plan:** Compare processing time and exception rates by intake channel and document quality.
 
-1. Administrative work is distributed across core systems, portals, spreadsheets, fax queues, and individual knowledge.
-2. Several workflows contain repetitive information handling combined with human judgment.
-3. Some operational knowledge is concentrated in individual employees or locally maintained artifacts.
-4. AI experimentation already exists, but organizational governance and sanctioned usage are immature.
-5. The primary business question is economic and operational: whether the same work can be completed with less cost and less avoidable effort.
-6. Any PHI-bearing AI workflow will face governance and implementation constraints before technical feasibility becomes the only consideration.
+### 8. What prevents safe AI scaling?
 
-These are discovery hypotheses, not final recommendations.
+**Evidence — Reported — B2/B6:** There is no administrative AI policy and no BAA with a general-purpose AI vendor.
+
+**Evidence — Reported — B6:** Compliance requires defined data flow, accountable ownership, minimum-necessary data, auditability and human review for patient- or claim-affecting outputs.
+
+**Status:** Governance constraints are known; ownership/path are unclear.
+
+**Resolution plan:** Define owner, data classification, review path and vendor requirements for any candidate pilot.
+
+### 9. Is administrative workforce growth caused by volume, inefficiency or organizational design?
+
+**Evidence — Reported — B1:** Kestrel added 63 administrative employees versus 11 clinicians over two years.
+
+**Evidence — Reported — B1:** Patient volume increased 5%.
+
+**Status:** Causal attribution is unknown.
+
+**Resolution plan:** Compare staffing, workload volumes and process changes before attributing growth to automation opportunity.
+
+### 10. Can an opportunity proceed without a new system dependency?
+
+**Evidence — Reported — B3:** Tanya wants work to take less time rather than simply adding another tool.
+
+**Evidence — Reported — B6:** Ken identified APIs, contractual restrictions, payer portals without APIs, spreadsheets, fax and uncertain Access databases.
+
+**Status:** Feasibility varies by workflow.
+
+**Resolution plan:** Map required systems/data flows and assess existing capabilities before proposing new technology.
+
+## Discovery rule
+
+These questions remain visible until evidence resolves them. Where evidence remains unavailable, the final recommendation will state the limitation rather than convert an assumption into a baseline.
 
 **Sources:** B1–B9.
